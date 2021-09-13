@@ -1,0 +1,38 @@
+.top{
+	width: 100vw;
+	display: flex;
+	align-items: center;
+}
+.recMusicList{
+	padding-left: 20px;
+	font-weight: bolder;
+}
+.more{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 15vw;
+	border: 1px solid #e1e1e1;
+	color: #252527;
+	font-size: 14px;
+	position: absolute;
+	right: 20px;
+	border-radius: 10px;
+}
+.main{
+	margin-top: 10px;
+}
+.webkitbox{
+	white-space: pre-line;
+	font-size: 10px;
+	word-break: break-all;
+	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow:hidden;
+	display: inline-block;
+	width: 90px;
+	height: 200px;
+	color:#656565;
+	
+}

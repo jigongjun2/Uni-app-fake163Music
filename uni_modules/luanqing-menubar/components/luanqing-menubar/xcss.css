@@ -1,0 +1,65 @@
+.flex_row{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.menu_item{
+	min-width: 120rpx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.menu_item_text_active{
+	font-size: medium;
+	font-weight: bold;
+	color: #FF2400;
+}
+
+.menu_item_text{
+	font-size: medium;
+	font-weight: bold;
+}
+
+.menu_item_line_active{
+	margin-top: 6rpx;
+	min-width: 65rpx;
+	border-radius: 50rpx;
+	height: 5rpx;
+	background-color: #FF2400;
+}
+
+.menu_item_line{
+	margin-top: 6rpx;
+	min-width: 65rpx;
+	height: 5rpx;
+}
+
+.layout{
+	position: fixed;
+	display: flex;
+	top: 0rpx;
+	padding-top: calc(var(--status-bar-height) + 20rpx);
+	width: calc(100vw);
+	align-items: flex-end;
+	height: 100rpx;
+	white-space: nowrap;
+	flex-shrink: 0;
+	justify-content: flex-start;
+	overflow-x: auto;
+	 /*IE下隐藏滚动条*/
+	  -ms-overflow-style: none;
+	  /*火狐下隐藏滚动条*/
+	  overflow: -moz-scrollbars-none;
+	  scrollbar-width: none;
+	  border-bottom: 1rpx solid #AAA;
+	  background-color: #EEE;
+}
+
+/* 隐藏滚动条 */
+.layout::-webkit-scrollbar {
+  display: none;
+}
+

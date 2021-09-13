@@ -1,0 +1,6 @@
+{"_id":{"$oid":"6132db4f88380a000134538a"},"content":"apple","count":10,"create_date":1610355234464}
+// {"_id":{"$oid":"6132db4f88380a000134538b"},"content":"ipad","count":8,"create_date":1610355234464}
+// {"_id":{"$oid":"6132db4f88380a000134538c"},"content":"macbook","count":7,"create_date":1610355234464}
+// {"_id":{"$oid":"6132dbd5803e590001fc18da"},"content":"apple","count":10,"create_date":1610355234464}
+// {"_id":{"$oid":"6132dbd5803e590001fc18dc"},"content":"macbook","count":7,"create_date":1610355234464}
+// {"_id":{"$oid":"6132dbd5803e590001fc18db"},"content":"ipad","count":8,"create_date":1610355234464}
